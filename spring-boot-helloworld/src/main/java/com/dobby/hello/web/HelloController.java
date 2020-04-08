@@ -1,4 +1,4 @@
-package com.dobby.web;
+package com.dobby.hello.web;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

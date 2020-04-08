@@ -1,4 +1,4 @@
-package com.dobby.web;
+package com.dobby.exception.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
