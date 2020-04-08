@@ -19,6 +19,7 @@
         <mysql.version>5.1.47</mysql.version>
         <spring-boot-admin.version>2.1.3</spring-boot-admin.version>
         <mybatis-starter.version>2.0.0</mybatis-starter.version>
+        <fastjson.version>1.2.62</fastjson.version>
     </properties>
 
     <modules>
@@ -60,6 +61,12 @@
                 <version>${mybatis-starter.version}</version>
             </dependency>
 
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
