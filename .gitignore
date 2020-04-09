@@ -7,3 +7,7 @@
 *.iml
 out
 gen
+*/target
+*/*.iml
+/spring-boot-webdev/spring-boot-interceptor/target/classes/
+/.idea/

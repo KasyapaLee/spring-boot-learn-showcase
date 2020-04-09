@@ -27,6 +27,8 @@
         <module>spring-boot-helloworld</module>
         <module>spring-boot-webdev</module>
         <module>spring-boot-dataaccess</module>
+        <module>spring-boot-test</module>
+        <module>spring-boot-devops</module>
     </modules>
 
 

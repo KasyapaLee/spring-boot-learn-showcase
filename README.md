@@ -21,3 +21,15 @@
 2. Spring Boot 中使用 JDBC
 3. Spring Boot 中使用 JPA
 4. Spring Boot 中使用 MyBatis
+5. Spring Boot 中使用 Redis
+
+### 4. spring-boot-test
+
+
+### 5. spring-boot-devops
+
+
+### 6. spring-boot-monitor
+
+
+
