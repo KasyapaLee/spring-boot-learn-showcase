@@ -16,6 +16,7 @@
         <module>spring-boot-jsp</module>
         <module>spring-boot-thymeleaf</module>
         <module>spring-boot-interceptor</module>
+        <module>spring-boot-servlet</module>
 
     </modules>
 
