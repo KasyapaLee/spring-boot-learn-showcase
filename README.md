@@ -19,5 +19,5 @@
 ### 3. spring-boot-dataaccess
 1. Spring Boot 中使用事务
 2. Spring Boot 中使用 JDBC
-3. Spring Boot 中使用 MyBatis
-4. Spring Boot 中使用 JPA
+3. Spring Boot 中使用 JPA
+4. Spring Boot 中使用 MyBatis

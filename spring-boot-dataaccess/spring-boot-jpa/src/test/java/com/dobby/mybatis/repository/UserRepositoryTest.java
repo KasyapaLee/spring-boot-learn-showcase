@@ -1,21 +1,13 @@
-package com.dobby.jpa.repository;
+package com.dobby.mybatis.repository;
 
-import com.dobby.jpa.model.User;
-import org.apache.tomcat.util.http.ResponseUtil;
-import org.apache.tomcat.util.net.openssl.OpenSSLUtil;
-import org.junit.Assert;
+import com.dobby.mybatis.model.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import javax.annotation.Resource;
-import javax.sound.midi.Soundbank;
-import java.lang.reflect.Array;
-import java.text.DateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 /**

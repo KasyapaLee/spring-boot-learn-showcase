@@ -1,4 +1,4 @@
-package com.dobby.jpa.model;
+package com.dobby.mybatis.model;
 
 import lombok.ToString;
 
