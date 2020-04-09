@@ -1,10 +1,10 @@
-package com.dobby.mybatis;
+package com.dobby.tx;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-public class MyBatisApplicationTests {
+public class TxApplicationTests {
 
     @Test
     public void contextLoads() {

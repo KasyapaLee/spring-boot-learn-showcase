@@ -1,6 +1,6 @@
-package com.dobby.mybatis.repository;
+package com.dobby.jpa.repository;
 
-import com.dobby.mybatis.model.User;
+import com.dobby.jpa.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

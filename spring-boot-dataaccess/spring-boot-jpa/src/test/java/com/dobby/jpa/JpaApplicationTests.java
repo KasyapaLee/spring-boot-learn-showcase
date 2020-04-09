@@ -1,4 +1,4 @@
-package com.dobby.mybatis;
+package com.dobby.jpa;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
