@@ -1,6 +1,5 @@
 # spring-boot-learn-showcase
 
-
 ### 1. spring-boot-helloworld
 
 1. 自定义banner图案
@@ -24,12 +23,14 @@
 5. Spring Boot 中使用 Redis
 
 ### 4. spring-boot-test
-
+Spring Boot 项目中如何进行单元测试？
 
 ### 5. spring-boot-devops
+1. 热部署 spring-boot-devtools
+2. spring boot 项目部署为 war包
+3. 应用监控 spring boot actuator
+4. spring boot admin
 
-
-### 6. spring-boot-monitor
 
 
 
