@@ -1,7 +1,6 @@
 package com.dobby.filter.f2;
 
 import javax.servlet.*;
-import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
 public class MyFilter2 implements Filter {

@@ -14,6 +14,6 @@ public class UserServiceTest {
 
     @Test
     void saveUser() {
-       userService.saveUserTest();
+        userService.saveUserTest();
     }
 }

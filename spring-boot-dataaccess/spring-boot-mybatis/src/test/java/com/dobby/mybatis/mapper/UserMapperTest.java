@@ -6,17 +6,18 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+
 import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
 class UserMapperTest {
 
-        @Autowired
-        private UserMapper userMapper;
+    @Autowired
+    private UserMapper userMapper;
 
-        @Test
-        public void testSelect() {
+    @Test
+    public void testSelect() {
 //            List<User> ligq = userMapper.getByName("ligq6");
 //            System.out.println(ligq);
 
@@ -30,27 +31,27 @@ class UserMapperTest {
 //            System.out.println(getAll);
 
 
-            List<User> byAgeMoreThan = userMapper.getByAgeMoreThan(18);
-            System.out.println(byAgeMoreThan);
-        }
+        List<User> byAgeMoreThan = userMapper.getByAgeMoreThan(18);
+        System.out.println(byAgeMoreThan);
+    }
 
 
-        @Test
-        public void testSave() {
+    @Test
+    public void testSave() {
 
-            User user = new User();
-            user.setName("yj");
-            user.setAge(18);
-            user.setPassword("123");
+        User user = new User();
+        user.setName("yj");
+        user.setAge(18);
+        user.setPassword("123");
 
-            userMapper.insert(user);
+        userMapper.insert(user);
 
-        }
+    }
 
 
-        @Test
-        public void testDelete() {
+    @Test
+    public void testDelete() {
 
-            userMapper.deleteById(1248140198930354177L);
-        }
+        userMapper.deleteById(1248140198930354177L);
+    }
 }

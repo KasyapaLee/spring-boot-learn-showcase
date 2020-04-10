@@ -22,7 +22,7 @@ public class UserRepositoryTest {
     private UserRepository userRepository;
 
     @Test
-    public void test()  {
+    public void test() {
         List<User> userList = new ArrayList();
         for (int i = 0; i < 10; i++) {
             User user = new User();

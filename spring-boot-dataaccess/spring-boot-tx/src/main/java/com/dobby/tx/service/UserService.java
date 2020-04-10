@@ -23,7 +23,7 @@ public class UserService {
         user.setPassword("123");
         userRepository.save(user);
 
-        int num =  34/0;
+        int num = 34 / 0;
 
         User user2 = new User();
         user2.setName("yy");

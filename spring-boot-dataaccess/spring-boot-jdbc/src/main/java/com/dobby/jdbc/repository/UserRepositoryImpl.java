@@ -5,8 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
-import org.springframework.jdbc.core.support.JdbcDaoSupport;
 import org.springframework.stereotype.Repository;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
@@ -37,7 +37,7 @@ public class UserRepositoryImpl implements UserRepository {
     @Override
     public int delete(long id) {
         String sql = "DELETE FROM t_users where id = ?";
-        return jdbcTemplate.update(sql,id);
+        return jdbcTemplate.update(sql, id);
     }
 
     @Override
@@ -49,7 +49,7 @@ public class UserRepositoryImpl implements UserRepository {
     @Override
     public User findById(long id) {
         String sql = "SELECT * FROM t_users WHERE id=?";
-        return jdbcTemplate.queryForObject(sql, new Object[] { id }, new BeanPropertyRowMapper<User>(User.class));
+        return jdbcTemplate.queryForObject(sql, new Object[]{id}, new BeanPropertyRowMapper<User>(User.class));
     }
 
 
