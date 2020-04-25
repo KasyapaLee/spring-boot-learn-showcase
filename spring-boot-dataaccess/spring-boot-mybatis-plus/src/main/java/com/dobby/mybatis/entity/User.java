@@ -1,4 +1,4 @@
-package com.dobby.mybatis.model;
+package com.dobby.mybatis.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -6,6 +6,7 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
 /**
+ * 用户
  * @author liguoqing
  */
 @Data
@@ -17,6 +18,7 @@ public class User {
     private String name;
     private String password;
     private int age;
+    private String email;
 
 
 }

@@ -3,11 +3,4 @@
 <mapper namespace="com.dobby.mybatis.mapper.UserMapper">
 
 
-    <select id="getByAgeMoreThan" resultType="com.dobby.mybatis.entity.User">
-        select id, name, password, age
-        from t_users
-        where age > #{age}
-    </select>
-
-
 </mapper>

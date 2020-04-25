@@ -23,6 +23,11 @@ gen
 .idea/**/dictionaries
 .idea/**/shelf
 
+.idea
+*.iws
+*.iml
+*.ipr
+
 # Generated files
 .idea/**/contentModel.xml
 
